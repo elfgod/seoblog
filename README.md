@@ -1,0 +1,9 @@
+# backend installations
+npm i express
+npm i mongoose
+npm i body-parser
+npm i cookie-parser
+npm i morgan
+npm i dotenv
+npm i nodemon
+npm i cors
