@@ -23,7 +23,6 @@ mongoose
     .then(() => console.log('DB connected'))
 
 
-
 // middlewares
 app.use(morgan('dev'));
 app.use(bodyParser.json());
