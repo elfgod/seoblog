@@ -10,12 +10,16 @@ sudo systemctl start mongod
 sudo systemctl stop mongod  
 sudo systemctl restart mongod  
 
+
+# Software Installations
 - install MongoDB
 - install Robo 3T
 
-# .ENV Config
+# .ENV Config  
 NODE_ENV=development    
 PORT=8000  
 CLIENT_URL=http://localhost:3000  
-DATABASE_CLOUD=PASTE HERE YOUR OWN MONGO URI  
-DATABASE_LOCAL='mongodb://localhost:27017/seoblog'  
+DATABASE_CLOUD=PASTE HERE YOUR CLOUD MONGO URI ( for cloud production db)  
+DATABASE_LOCAL='mongodb://localhost:27017/seo-blog' (for local production db)   
+JWT_SECRET=secretKeyToGenerateTheTokenAnythingGoesHere
+
