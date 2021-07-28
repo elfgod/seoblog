@@ -21,16 +21,18 @@ sudo systemctl restart mongod
 - install MongoDB  
 - install Robo 3T  
 
-## .ENV Config backend root folder  
+## .ENV Config backend root folder 
+``` 
 NODE_ENV=development   
 PORT=8000  
 CLIENT_URL=http://localhost:3000  
 DATABASE_CLOUD=PASTE HERE YOUR CLOUD MONGO URI ( for cloud production db)  
 DATABASE_LOCAL='mongodb://localhost:27017/seo-blog' (for local production db)  
 JWT_SECRET=secretKeyToGenerateTheTokenAnythingGoesHere  
-
+```
 ## .ENV Config frontend root folder
-- create a next.config.js file  
+create a next.config.js file, we will pullout this file from config.js in the root folder  
+```
 module.exports = {  
     publicRuntimeConfig: {  
         APP_NAME: 'SEOBLOG',  
@@ -38,6 +40,6 @@ module.exports = {
         PRODUCTION: false  
     }  
 };  
-
+```
 ##
 

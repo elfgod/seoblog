@@ -1,12 +1,16 @@
 import Layout from '../components/Layout';
-import Header from '../components/Header';
+import Link from 'next/link';
 
 const Index = () => {
     return (
         <>
-        <Header />
         <Layout>
             <h2>Index page</h2>
+            <Link href="/signup">
+                <a>Signup</a>
+            </Link>
+            
+            
         </Layout>
         </>
     );
