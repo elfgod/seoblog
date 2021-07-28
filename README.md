@@ -1,9 +1,16 @@
-# backend installations
+# inside backend folder installations
 npm i express mongoose body-parser cookie-parser  
 npm i morgan dotenv nodemon cors  
 npm i express-validator jsonwebtoken express-jwt  
 npm i formidable lodash slugify string-strip-html  
 npm i shortid // username autogenerator  
+
+# inside frontend folder installations
+- npm install next react react-dom  
+- npm install bootstrap --save  
+- npm install reactstrap --save 
+
+
 
 # MongoDB commands
 sudo systemctl start mongod  
